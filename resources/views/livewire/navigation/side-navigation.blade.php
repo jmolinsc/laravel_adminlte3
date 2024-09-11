@@ -48,7 +48,7 @@
 
                         <p>
                             Modulos
-                            <span class="badge badge-info right">2</span>
+
                         </p>
                     </a>
                 </li>
@@ -59,7 +59,7 @@
 
                         <p>
                             Configuracion
-                            <span class="badge badge-info right">2</span>
+
                         </p>
                     </a>
                 </li>
