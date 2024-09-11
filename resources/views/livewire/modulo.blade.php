@@ -11,10 +11,10 @@
                             <div class="d-flex justify-content-between p-md-1">
                                 <div class="d-flex flex-row">
                                     <div class="align-self-center">
-                                        <i class="fas fa-pencil-alt text-info fa-3x me-4"></i>
+                                        <i class="fas fa-user-friends text-info fa-3x me-4"></i>
                                     </div>
                                     <div>
-                                        <h4>Total Posts</h4>
+                                        <h4>Clientes</h4>
 
                                     </div>
                                 </div>
@@ -22,21 +22,19 @@
                                     <h2 class="h1 mb-0">18,000</h2>
                                 </div>
                                 <div class="align-self-center">
-                                    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between z-depth-1-bottom px-3"
-                                        style="background-color: #fafafa;">
-
-                                        <div>
-                                            <ul class="list-inline my-2 py-1">
-                                                <li class="list-inline-item">
-                                                    <a href="#">
-                                                        <i class="fas fa-ellipsis-v ps-3" aria-hidden="true"></i>
-                                                    </a>
-
-                                                </li>
-                                            </ul>
+                                    <div class="dropdown">
+                                        <a  role="button"
+                                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v ps-3" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" wire:navigate href="/configuracion">Pais</a>
+                                            <a class="dropdown-item" href="#">Departamento</a>
+                                            <a class="dropdown-item" href="#">Actividad Economica</a>
+                                            <a class="dropdown-item" href="#">Categoria</a>
                                         </div>
-
-                                    </nav>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -48,15 +46,31 @@
                             <div class="d-flex justify-content-between p-md-1">
                                 <div class="d-flex flex-row">
                                     <div class="align-self-center">
-                                        <i class="far fa-comment-alt text-warning fa-3x me-4"></i>
+                                        <i class="fa fa-table text-success fa-3x me-4" aria-hidden="true"></i>
+
                                     </div>
                                     <div>
-                                        <h4>Total Comments</h4>
+                                        <h4>Articulos</h4>
 
                                     </div>
                                 </div>
                                 <div class="align-self-center">
                                     <h2 class="h1 mb-0">84,695</h2>
+                                </div>
+                                <div class="align-self-center">
+                                    <div class="dropdown">
+                                        <a  role="button"
+                                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v ps-3" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" wire:navigate href="/configuracion">Pais</a>
+                                            <a class="dropdown-item" href="#">Departamento</a>
+                                            <a class="dropdown-item" href="#">Actividad Economica</a>
+                                            <a class="dropdown-item" href="#">Categoria</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
