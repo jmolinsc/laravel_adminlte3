@@ -1,7 +1,6 @@
 <div>
     {{-- The Master doesn't talk, he acts. --}}
-    <h1>Modulos</h1>
-
+    <h1>MODULOS</h1>
     <div class="container-fluid">
         <section>
             <div class="row">
