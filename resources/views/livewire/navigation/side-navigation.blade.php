@@ -52,7 +52,16 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="/catalogos" wire:navigate class="nav-link">
+                        <i class="nav-icon far fa-calendar-alt"></i>
 
+                        <p>
+                            Catalogos
+
+                        </p>
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a href="/configuracion" wire:navigate class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
