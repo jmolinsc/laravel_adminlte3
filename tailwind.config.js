@@ -4,6 +4,7 @@ export default {
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+         "./vendor/ramonrietdijk/livewire-tables/resources/**/*.blade.php"
       ],
   theme: {
     extend: {},

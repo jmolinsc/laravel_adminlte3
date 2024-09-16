@@ -1,6 +1,21 @@
 <div>
     {{-- The Master doesn't talk, he acts. --}}
-    <h1>Catalogos</h1>
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Catalogos</h1>
+                </div>
+
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <section>
             <div class="row">

@@ -13,7 +13,8 @@
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
-        "livewire/livewire": "^3.2"
+        "livewire/livewire": "^3.2",
+        "ramonrietdijk/livewire-tables": "^4.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

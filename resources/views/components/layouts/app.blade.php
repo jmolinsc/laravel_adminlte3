@@ -9,10 +9,10 @@
 
     {{-- FontAwesome --}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/fontawesome-free/css/all.min.css') }}">
-    {{-- Bootstrap 4 --}}
+    {{-- Bootstrap 4
     <link rel="stylesheet"
         href="{{ asset('theme/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
-
+--}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
     {{-- JQVMap --}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/jqvmap/jqvmap.min.css') }}">
@@ -49,6 +49,7 @@
 
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -95,9 +96,9 @@
         $.widget.bridge('uibutton', $.ui.button)
     </script>
 
-    {{-- Bootstrap 4 --}}
+    {{-- Bootstrap 4
     <script src="{{ asset('theme/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
+--}}
     <script src="{{ asset('theme/plugins/sparklines/sparkline.js') }}"></script>
 
     {{-- JQVMap --}}
@@ -108,9 +109,9 @@
     <script src="{{ asset('theme/plugins/moment/moment.min.js') }}"></script>
     <script src="{{ asset('theme/plugins/daterangepicker/daterangepicker.js') }}"></script>
 
-    {{-- Tempusdominus Bootstrap 4 --}}
+    {{-- Tempusdominus Bootstrap 4
     <script src="{{ asset('theme/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-
+--}}
     {{-- Summernote --}}
     <script src="{{ asset('theme/plugins/summernote/summernote-bs4.min.js') }}"></script>
 
@@ -129,8 +130,9 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
     <!-- SCRIPTS -->
-    <!-- JQuery -->
+    <!-- JQuery
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    -->
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
@@ -139,6 +141,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 </body>
 
 </html>
