@@ -8,4 +8,23 @@ use Illuminate\Database\Eloquent\Model;
 class Cte extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'codigo',
+        'nombre',
+        'direccion',
+        'ncr',
+        'nit'
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'id'
+
+    ];
+
 }

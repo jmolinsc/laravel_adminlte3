@@ -9,10 +9,10 @@
 
     {{-- FontAwesome --}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/fontawesome-free/css/all.min.css') }}">
-    {{-- Bootstrap 4
+    {{-- Bootstrap 4 --}}
     <link rel="stylesheet"
         href="{{ asset('theme/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
---}}
+
     <link rel="stylesheet" href="{{ asset('theme/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
     {{-- JQVMap --}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/jqvmap/jqvmap.min.css') }}">
@@ -35,10 +35,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
 
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
         rel="stylesheet">
-    <!-- Material Design Bootstrap -->
+        -->
+    <!-- Material Design Bootstrap
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet">
 
     <link rel="stylesheet"
@@ -47,7 +48,7 @@
 
     <link rel="shortcut icon" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/favicon.ico">
 
-
+-->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
@@ -133,15 +134,17 @@
     <!-- JQuery
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     -->
-    <!-- Bootstrap tooltips -->
+    <!-- Bootstrap tooltips
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
+   -->
+    <!-- Bootstrap core JavaScript
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
+         -->
+    <!-- MDB core JavaScript
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+-->
 </body>
 
 </html>

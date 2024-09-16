@@ -6,6 +6,7 @@ use App\Livewire\Catalogos;
 use App\Livewire\Configuracion;
 use App\Livewire\Cte;
 use App\Livewire\Dashboard\Dashboard;
+use App\Livewire\Form\Cte as FormCte;
 use App\Livewire\Modulo;
 use Illuminate\Support\Facades\Route;
 
@@ -54,4 +55,5 @@ Route::group(['middleware' => ['auth', 'verified'], 'prefix' => 'cte'], function
     Route::get('/pais', Cte::class)->name('pais');
     Route::get('/departamento', Cte::class)->name('departamento');
     Route::get('/municipio', Cte::class)->name('municipio');
+    Route::get('/form', FormCte::class)->name('formCte');
 });
