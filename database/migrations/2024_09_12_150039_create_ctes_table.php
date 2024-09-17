@@ -37,6 +37,7 @@ return new class extends Migration
             $table->string('zonaimpuestos');
             $table->string('regimenfiscal');
             $table->string('grupo');
+            $table->string('estatus');
             $table->timestamps();
         });
     }

@@ -8,6 +8,7 @@ class Cte extends Component
 {
     public function render()
     {
-        return view('livewire.form.cte');
+
+        return view('livewire.form.cte', ['cte' => Cte::class]);
     }
 }
