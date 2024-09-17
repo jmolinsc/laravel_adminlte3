@@ -14,8 +14,6 @@ use RamonRietdijk\LivewireTables\Livewire\LivewireTable;
 class UsersTable extends LivewireTable
 {
     protected string $model = Cte::class;
-    protected string $id;
-
 
     protected function columns(): array
     {
@@ -53,21 +51,10 @@ class UsersTable extends LivewireTable
         ];
     }
 
-    protected function actions(): array
-    {
-        return [
-
-            Action::make(__('Edit'), 'edit', function (Enumerable $models): void {
-                //
-
-            }),
-            //
-        ];
-    }
-
     public function editrow(Enumerable $models)
     {
-
         return $this->redirect("/cte/form", navigate: true);
     }
+
+
 }
