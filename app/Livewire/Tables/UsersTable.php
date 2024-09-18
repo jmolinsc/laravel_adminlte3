@@ -27,8 +27,8 @@ class UsersTable extends LivewireTable
             Column::make(__('NIT'), 'nit')->searchable(),
             ViewColumn::make('Estatus', 'users.estatus')->searchable(),
             Column::make(__('Actions'), function (Model $model): string {
-                //  return '<a class="underline" href="#'.$model->getKey().'">Edit</a>';
-                return   '<a class="btn btn-sm" href="/cte/form" wire:navigate.hover role="button">
+                // return '<a class="underline" href="#'.$model->getKey().'">Edit</a>';
+                return '<a class="btn btn-sm"  wire:click.prevent="editrow(' . $model->getKey() . ')" wire:navigate.hover role="button">
                             <i class="fa fa-disk"></i>
                             Edit
                           </a>';
@@ -51,10 +51,8 @@ class UsersTable extends LivewireTable
         ];
     }
 
-    public function editrow(Enumerable $models)
+    public function editrow($id)
     {
-        return $this->redirect("/cte/form", navigate: true);
+        $this->redirectRoute('formCte', ['id' => $id], navigate: true);
     }
-
-
 }

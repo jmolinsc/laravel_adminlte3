@@ -10,7 +10,7 @@ class Cte extends Model
     use HasFactory;
 
     protected $fillable = [
-        'codigo',
+       'codigo',
         'nombre',
         'direccion',
         'ncr',
