@@ -4,28 +4,21 @@ namespace App\Livewire\Form;
 
 use App\Livewire\Forms\CteForm;
 use App\Models\Cte as ModelsCte;
-use Illuminate\Http\Request;
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class Cte extends Component
 {
     //entidad eloquent
     public CteForm $form;
-    public $id = '';
-    public $cte = null;
+    public $id;
+    public $cte;
 
-    public function mount(Request $request)
-    {
-        $this->id = $request->get('id');
-        $cte = ModelsCte::find($this->id);
-    }
+
 
     public function render()
     {
-
-        return view('livewire.form.cte', [
-            'form' => $this->cte
-        ]);
+        return view('livewire.form.cte');
     }
 
     public function save()
@@ -38,4 +31,6 @@ class Cte extends Component
         'form.codigo' => 'required|string|min:1',
 
     ];
+
+
 }

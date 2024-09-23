@@ -13,6 +13,7 @@
                         <li class="breadcrumb-item active">Clientes</li>
                     </ol>
                 </div>
+                <button type="button" wire:click='open' class="btn btn-primary">Primary</button>
             </div>
         </div>
     </div>
@@ -21,6 +22,6 @@
         <div class="panel-body">
             <livewire:tables.users-table />
         </div>
-    </div>
 
+    </div>
 </div>
